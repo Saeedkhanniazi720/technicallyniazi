@@ -6,34 +6,49 @@
     <title>Technically Niazi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background: #f4f4f4; }
-        header { background: #333; color: #fff; padding: 20px; }
-        h1 { margin: 0; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #101010;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #00ffff;
+            text-shadow: 2px 2px #000;
+        }
         .btn {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 15px 25px;
+            padding: 15px 30px;
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            color: white;
             font-size: 18px;
-            color: #fff;
-            background-color: #007bff;
             border: none;
-            border-radius: 5px;
+            border-radius: 50px;
+            cursor: pointer;
             text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: background 0.3s ease;
         }
         .btn:hover {
-            background-color: #0056b3;
+            background: linear-gradient(90deg, #0072ff, #00c6ff);
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Technically Niazi</h1>
-    </header>
-    <main>
-        <a href="https://upload.app/download/niazi-tracker/niazi.tracker/4fb1141784437e166a119f69154abd280025b4bee6fc1081608142116ff96e7c" 
-           class="btn" target="_blank" rel="noopener noreferrer">
-            Get Started
-        </a>
-    </main>
+    <h1>Technically Niazi</h1>
+    <a class="btn" href="https://upload.app/download/niazi-tracker/niazi.tracker/4fb1141784437e166a119f69154abd280025b4bee6fc1081608142116ff96e7c" target="_blank">
+        Get Started
+    </a>
 </body>
 </html>

@@ -12,21 +12,32 @@
             background-color: black;
             font-family: Arial, sans-serif;
             color: white;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+        }
+
+        header, section, footer {
+            text-align: center;
+            padding: 40px 20px;
         }
 
         h1 {
             font-size: 50px;
-            font-weight: bold;
-            margin-bottom: 30px;
-            color: white;
+            margin-bottom: 20px;
         }
 
-        a.button {
+        h2 {
+            font-size: 28px;
+            margin: 20px 0 10px;
+            color: #00aaff;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto 20px;
+            line-height: 1.6;
+        }
+
+        .button {
             display: inline-block;
             padding: 14px 32px;
             background-color: white;
@@ -37,16 +48,71 @@
             border-radius: 30px;
             border: 3px solid #00aaff;
             transition: all 0.3s ease;
+            margin-top: 20px;
         }
 
-        a.button:hover {
+        .button:hover {
             background-color: #00aaff;
             color: white;
+        }
+
+        .card {
+            background-color: #111;
+            border: 1px solid #222;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 600px;
+        }
+
+        footer {
+            font-size: 14px;
+            color: #888;
         }
     </style>
 </head>
 <body>
-    <h1>Technically Niazi</h1>
-    <a class="button" href="https://upload.app/download/niazi-tracker/niazi.tracker/4fb1141784437e166a119f69154abd280025b4bee6fc1081608142116ff96e7c" target="_blank">Get Started</a>
+    <header>
+        <h1>Technically Niazi</h1>
+        <a class="button" href="https://upload.app/download/niazi-tracker/niazi.tracker/4fb1141784437e166a119f69154abd280025b4bee6fc1081608142116ff96e7c" target="_blank">Get Started</a>
+    </header>
+
+    <section>
+        <h2>ہمارے یوٹیوب چینل کو سبسکرائب کریں</h2>
+        <p>Niazi Tech Master چینل پر مفید ٹیکنالوجی ویڈیوز حاصل کریں۔</p>
+        <a class="button" href="https://www.youtube.com/@NiaziTechMaster" target="_blank">Subscribe on YouTube</a>
+    </section>
+
+    <section>
+        <h2>دنیا بھر سے پیسہ کمائیں</h2>
+        <p>ہم آپ کو سکھاتے ہیں کہ آن لائن کیسے کمایا جا سکتا ہے۔ ریفر کریں، کوئز حل کریں اور انعامات جیتیں۔</p>
+        <div class="card">
+            <h3>کورسز اور کوئزز</h3>
+            <p>ہم مفت آن لائن کورسز اور انعامی کوئزز فراہم کرتے ہیں۔</p>
+        </div>
+        <div class="card">
+            <h3>ریفرل سسٹم</h3>
+            <p>مزید لوگوں کو مدعو کریں اور اضافی انعامات حاصل کریں۔</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Best Deals Today!</h2>
+        <div class="card">
+            <h3>Tech Bundle Offer</h3>
+            <p>صرف آج کے لیے خصوصی آفر پر! ابھی حاصل کریں۔</p>
+            <a class="button" href="#" target="_blank">Buy Now</a>
+        </div>
+    </section>
+
+    <section>
+        <h2>ہم سے رابطہ کریں</h2>
+        <p>مزید معلومات یا سوالات کے لیے ہم سے رابطہ کریں۔</p>
+        <a class="button" href="mailto:niazitechcontact@gmail.com">niazitechcontact@gmail.com</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Technically Niazi. All rights reserved.</p>
+    </footer>
 </body>
 </html>
